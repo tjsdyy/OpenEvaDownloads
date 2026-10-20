@@ -1,0 +1,16 @@
+OpenEva is developed from Nodum, an MIT-licensed project.
+Upstream source: https://github.com/nodummd/nodum
+The original copyright and license terms are preserved in LICENSE.
+OpenEva's product name and domain are https://openeva.ai.
+
+The file editor implementation uses unmodified BlockNote (MPL-2.0), IronCalc
+(MIT/Apache-2.0), PDF.js (Apache-2.0) and DOMPurify (Apache-2.0 OR MPL-2.0).
+The build includes their available notices and source locations in
+public/vendor/NOTICE.txt and adjacent license files. Package versions are pinned
+in web/package-lock.json. No Tolaria source code is included in OpenEva.
+
+Excel workbooks use Univer Sheets 0.25.1 (Apache-2.0), ExcelJS 4.4.0 (MIT),
+and SheetJS CE 0.20.3 (Apache-2.0). Runtime and license files are bundled in
+public/vendor/spreadsheet, loaded only when opening a workbook. Integration
+patterns and the initial workbook/language adapters were adapted from the
+user-provided OpenEvaSaaS project. Storage remains OpenEva's Rust/Git engine.
