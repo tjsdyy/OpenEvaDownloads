@@ -8,7 +8,7 @@ This repository hosts OpenEva desktop installers and installation notes. Applica
 
 ## macOS · Apple Silicon / ARM64
 
-[下载 OpenEva 0.3.6](https://github.com/tjsdyy/OpenEvaDownloads/releases/download/v0.3.6/OpenEva_0.3.6_aarch64.dmg)
+[下载 OpenEva 0.3.7](https://github.com/tjsdyy/OpenEvaDownloads/releases/download/v0.3.7/OpenEva_0.3.7_aarch64.dmg)
 
 1. 下载并打开 `.dmg` 文件。
 2. 将 `OpenEva.app` 拖到 `Applications`。
